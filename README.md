@@ -8,7 +8,7 @@ Add this to your package's pubspec.yaml file:
 ```yaml
 dependencies:
   git:
-   url:
+   url: https://github.com/nghuyy/local_notifier.git
    ref: main
 ```
 
