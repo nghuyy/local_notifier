@@ -1,19 +1,5 @@
 # local_notifier
 
-[![pub version][pub-image]][pub-url] [![][discord-image]][discord-url]
-
-[pub-image]: https://img.shields.io/pub/v/local_notifier.svg
-[pub-url]: https://pub.dev/packages/local_notifier
-
-[discord-image]: https://img.shields.io/discord/884679008049037342.svg
-[discord-url]: https://discord.gg/zPa6EZ2jqb
-
-This plugin allows Flutter **desktop** apps to displaying local notifications.
-
----
-
-
-## Quick Start
 
 ### Installation
 
