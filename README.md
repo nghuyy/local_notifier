@@ -12,32 +12,6 @@ This plugin allows Flutter **desktop** apps to displaying local notifications.
 
 ---
 
-English | [简体中文](./README-ZH.md)
-
----
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [local_notifier](#local_notifier)
-  - [Platform Support](#platform-support)
-  - [Quick Start](#quick-start)
-    - [Installation](#installation)
-      - [⚠️ Linux requirements](#️-linux-requirements)
-    - [Usage](#usage)
-  - [Who's using it?](#whos-using-it)
-  - [API](#api)
-    - [LocalNotifier](#localnotifier)
-  - [Related Links](#related-links)
-  - [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Platform Support
-
-| Linux | macOS | Windows |
-| :---: | :---: | :-----: |
-|   ✔️   |   ✔️   |    ✔️    |
 
 ## Quick Start
 
@@ -47,18 +21,11 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  local_notifier: ^0.1.0
+  git:
+   url:
+   ref: main
 ```
 
-Or
-
-```yaml
-dependencies:
-  local_notifier:
-    git:
-      url: https://github.com/leanflutter/local_notifier.git
-      ref: main
-```
 
 #### ⚠️ Linux requirements
 

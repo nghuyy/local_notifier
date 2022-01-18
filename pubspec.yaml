@@ -12,6 +12,10 @@ dependencies:
     sdk: flutter
 
   uuid: ^3.0.4
+  osplatform:
+     git:
+       url: https://github.com/nghuyy/osplatform.git
+       ref: main
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +24,9 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
+      android:
+        package: ngghuy.local_notifier
+        pluginClass: LocalNotifierPlugin
       linux:
         pluginClass: LocalNotifierPlugin
       macos:
