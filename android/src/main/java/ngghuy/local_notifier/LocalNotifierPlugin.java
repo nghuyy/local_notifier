@@ -56,7 +56,7 @@ public class LocalNotifierPlugin implements FlutterPlugin, MethodCallHandler,Act
       NotificationCompat.Builder builder = new NotificationCompat.Builder(activity, activity.getPackageName())
               .setSmallIcon(R.drawable.ic_stat_name)
               .setContentTitle(call.argument("title"))
-              .setContentText(call.argument("subtitle"))
+              .setContentText(call.argument("body"))
               .setPriority(NotificationCompat.PRIORITY_DEFAULT);
       NotificationManagerCompat notificationManager = NotificationManagerCompat.from(activity);
       notificationManager.notify(1, builder.build());
